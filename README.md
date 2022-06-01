@@ -1,6 +1,6 @@
 # [Aiffel 울산 1기] 과정 중 수행한 결과 모음
 
-## 🔹Exploration
+## ⭐Exploration
 <details>
 <summary>펼쳐보기</summary>
 <div markdown="1">
@@ -45,51 +45,51 @@
 
 
 
-## 🔹Going Deeper
+## ⭐Going Deeper
 <details>
 <summary>펼쳐보기</summary>
 <div markdown="2">
 
 #### 1. 백본 네트워크 구조 상세분석
 >컴퓨터 비전 분야에 실전적으로 사용되는 주요 백본 네트워크(VGG, ResNet, SENet, EfficientNet) 구조에 대해 논문에 정리된 이론을 토대로 심화 원리를 학습한다.
-#### 2. 없다면 어떻게 될까? (ResNet Ablation Study) [click]()
+#### 2. 없다면 어떻게 될까? (ResNet Ablation Study) [click](https://github.com/superbJeong/Exploration/blob/main/GoingDeeper/GD_02_Ablation_Study.ipynb)
 >핵심적인 기법들을 하나씩 제거했을 때의 효과를 각각 정량적으로 측정하는 ablation study 기법을 배운다. ResNet을 대상으로 실습해 보면서 이론적으로 익힌 기법의 효과를 체감하고 백본을 직접 다뤄보는 실전적 감각을 익힌다.
 >* Resnet-34 / 50 구현
 #### 3. 잘 만든 Augmentation, 이미지 100장 안 부럽다
 >데이터셋이 부족한 상황을 해결하기 위한 Data Augmentation의 다양한 기법에 대해 알아보고, 활용 가능한 라이브러리, 실전상황에서 주의해야 할 팁 등을 정리해 본다.
 제출함
-#### 4. 이미지 어디까지 우려볼까? [click]()
+#### 4. 이미지 어디까지 우려볼까? [click](https://github.com/superbJeong/Exploration/blob/main/GoingDeeper/GD_04_data_augmentation.ipynb)
 >텐서플로우의 random augmentation 기법을 적용해 보고, 최신 augmentation 기법을 익힌다. 직접 모델을 학습시켜 비교 실험을 진행해 본다. 
 >* Cutmix와 Mixup 기법 적용
 #### 5. 너의 속이 궁금해 - Class Activation Map 살펴보기
 >모델의 작동 원리를 가늠할 수 있는 CAM, Grad-CAM, ACoL 모델을 공부하고 XAI(Explainable AI)의 기초를 익힌다.
-#### 6. 나를 찾아줘 - Class Activation Map 만들기 [click]()
+#### 6. 나를 찾아줘 - Class Activation Map 만들기 [click](https://github.com/superbJeong/Exploration/blob/main/GoingDeeper/GD_06_Class_Activation_Map.ipynb)
 >CAM, Grad-CAM을 위한 모델을 직접 만들고, CAM을 추출해 시각화 해본다. CAM을 Object detection에 적용해 결과를 평가해 본다.
 >* CAM과 Grad-CAM 시각화
 #### 7. Object Detection
 >Object detection 문제와 이를 해결하기 위한 다양한 detection 모델들을 알아본다.
-#### 8. GO/STOP! - Object Detection 시스템 만들기 [click]()
+#### 8. GO/STOP! - Object Detection 시스템 만들기 [click](https://github.com/superbJeong/Exploration/blob/main/GoingDeeper/GD_08_object_detection.ipynb)
 >Object detection 모델을 사용해 자동차 또는 사람이 가까이 있는지 확인한 후 멈출 수 있는 시스템을 만든다.
 >* KITTI 데이터셋 활용하여 RetinaNet 학습
 #### 9. 물체를 분리하자! - 세그멘테이션 살펴보기
 >픽셀 수준에서 이미지의 각 부분이 어떤 의미를 갖는 영역인지 분리를 해내는 세그멘테이션을 학습한다. 세그멘테이션의 종류, 주요 모델, 평가 기준을 알아본다.
 제출함
-#### 10. 도로 영역을 찾자! - 세그멘테이션 모델 만들기 [click]()
+#### 10. 도로 영역을 찾자! - 세그멘테이션 모델 만들기 [click](https://nbviewer.org/github/superbJeong/Exploration/blob/main/GoingDeeper/GD_10_semantic_segmentation.ipynb)
 >시맨틱 세그멘테이션을 이용해 자율주행 차량을 위해 도로영역을 찾는 모델을 간단히 만들어 본다.
 >* U-Net 및 U-Net++ 모델을 구현하여 도로 영역 segmentation
 #### 11. OCR 기술의 개요
 >이미지 속 글자를 읽어보는 OCR 기술을 구성하는 Text detection과 Text recognition에 대해 알아본다.
-#### 12. 직접 만들어보는 OCR [click]()
+#### 12. 직접 만들어보는 OCR [click](https://github.com/superbJeong/Exploration/blob/main/GoingDeeper/GD_12_ocr.ipynb)
 >Text recognition 모델을 구현, 학습하고 Text detection 모델과 연결하여 OCR을 구현한다. 
 >* CRNN과 keras-ocr detector를 활용하여 이미지에서 text를 찾고 인식
 #### 13. 멀리 있지만 괜찮아
 >카메라 스티커앱의 Face Detection을 더욱 가볍고 빠르고 정확하게 개선할 수 있는 딥러닝 모델에 대해 자세히 알아본다.
-#### 14. 멀리 있는 사람도 스티커를 붙여주자 [click]()
+#### 14. 멀리 있는 사람도 스티커를 붙여주자 [click](https://github.com/superbJeong/Exploration/blob/main/GoingDeeper/GD_14_face_detector.ipynb)
 >이미지에 사람 얼굴이 다수 포함된 경우에도 빠르게 이를 인식할 수 있는 SSD 모델을 구현, 학습해 보고 이를 이용해 카메라 스티커 앱을 개선해 본다.
 >* widerface 데이터셋을 활용하여 SSD 모델 학습
 #### 15. 사람의 몸짓을 읽어보자
 >Human pose estimation에 대해 그동안 발표된 논문을 기반으로 아이디어의 흐름이 발전해 온 내역을 자세히 살펴본다.
-#### 16. 행동 스티커 만들기 [click]()
+#### 16. 행동 스티커 만들기 [click](https://nbviewer.org/github/superbJeong/Exploration/blob/main/GoingDeeper/GD_16_simplebaseline.ipynb)
 >simplebaseline 모델을 활용하여 실제로 구현을 진행해 보면서 Human Pose Estimation을 좀더 깊이있게 이해해 본다.
 >* tfrecord를 활용한 데이터셋 구성과 전처리
 >* Hourglass 모델과 simplebaseline 모델을 비교분석
@@ -97,14 +97,39 @@
 </div>
 </details>
 
-## 🔹Datathon
-<details>
-<summary>펼쳐보기</summary>
-<div markdown="3">
+## ⭐Datathon
 
 * 팀명: 지우코(지금 우리 코로나는)   
 * 주제: Covid-19 데이터를 분석하여 확진자들 간의 상관 관계를 확인하고자 함   
 * 링크: [click](https://github.com/superbJeong/Exploration/blob/main/Datathon/%EC%A7%80%EA%B8%88%EC%9A%B0%EB%A6%AC%EC%BD%94%EB%A1%9C%EB%82%98%EB%8A%94_COVID19%ED%99%95%EC%82%B0%EC%98%81%ED%96%A5%EB%A0%A5%EB%B6%84%EC%84%9D.ipynb)
 
-</div>
-</details>
+## ⭐Hackathon
+
+* 팀명: About Me
+* 주제: 자신에게 알맞은 화장법과 헤어스타일 추천
+* Github 링크: [click](https://github.com/superbJeong/Aiffelthon-Aboutme/tree/main/inf_code)
+* 역할 요약: (활용 언어: Python)
+
+     ➡️ Training GANs
+
+    >- Face 이미지를 생성하는 GANs 모델 searching
+    >- 선정된 StarGan-v2 논문 학습 및 코드 분석
+    >- StarGan-v2에서 제공하는 face align 코드를 데이터 선별 코드와 연계하여 데이터셋을 만드는 코드 작성
+    >- StarGan-v2 코드의 training 파트를 분석하고 error들을 fix하며 학습 진행
+    >- 하이퍼파라미터 튜닝 진행 -> Loss를 결정하는 여러 lambda 값을 조절하며 학습 진행
+    >- 학습하는 동안 Wandb를 통해 loss 변화를 실시간으로 확인
+    
+    ➡️ 닮은꼴 연예인 찾기
+    >- 닮음의 기준을 선정(ex. 중안부와 하안부의 비율, 너비와 높이의 비율, ...)
+    >- 수집한 연예인 이미지의 크기와 랜드마크 생성 여부에 따라 선별하는 코드 작성
+    >- 정제된 닮은꼴 데이터의 닮은꼴 score를 미리 계산하여 텍스트 파일화
+    
+    ➡️ 웹페이지 서비스
+    >- html로 디자인 된 페이지를 flask를 이용하여 heoku 서버에 배포
+    >- 서비스를 하기 위한 inference만을 위한 코드 작성 
+    >   - 사용자 입력 이미지에서 얼굴을 찾고 face align하여 source 이미지로 입력
+    >   - align된 사용자 이미지와 닮은꼴 스코어가 가장 가까운 연예인 사진을 찾고, 
+    >     이를 reference 이미지로 입력
+    >   - 학습된 모델의 ckpt를 불러와 inference 하여 결과 이미지 생성
+    >- inference 코드는 Google Cloud Platform(GCP)를 back서버로 활용  
+    >  (front서버와 back서버를 연결하는 작업은 도움을 받음)
