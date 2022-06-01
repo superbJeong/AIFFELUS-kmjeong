@@ -52,44 +52,44 @@
 
 #### 1. 백본 네트워크 구조 상세분석
 >컴퓨터 비전 분야에 실전적으로 사용되는 주요 백본 네트워크(VGG, ResNet, SENet, EfficientNet) 구조에 대해 논문에 정리된 이론을 토대로 심화 원리를 학습한다.
-#### 2. 없다면 어떻게 될까? (ResNet Ablation Study) [click]()
+#### 2. 없다면 어떻게 될까? (ResNet Ablation Study) [click](https://github.com/superbJeong/Exploration/blob/main/GoingDeeper/GD_02_Ablation_Study.ipynb)
 >핵심적인 기법들을 하나씩 제거했을 때의 효과를 각각 정량적으로 측정하는 ablation study 기법을 배운다. ResNet을 대상으로 실습해 보면서 이론적으로 익힌 기법의 효과를 체감하고 백본을 직접 다뤄보는 실전적 감각을 익힌다.
 >* Resnet-34 / 50 구현
 #### 3. 잘 만든 Augmentation, 이미지 100장 안 부럽다
 >데이터셋이 부족한 상황을 해결하기 위한 Data Augmentation의 다양한 기법에 대해 알아보고, 활용 가능한 라이브러리, 실전상황에서 주의해야 할 팁 등을 정리해 본다.
 제출함
-#### 4. 이미지 어디까지 우려볼까? [click]()
+#### 4. 이미지 어디까지 우려볼까? [click](https://github.com/superbJeong/Exploration/blob/main/GoingDeeper/GD_04_data_augmentation.ipynb)
 >텐서플로우의 random augmentation 기법을 적용해 보고, 최신 augmentation 기법을 익힌다. 직접 모델을 학습시켜 비교 실험을 진행해 본다. 
 >* Cutmix와 Mixup 기법 적용
 #### 5. 너의 속이 궁금해 - Class Activation Map 살펴보기
 >모델의 작동 원리를 가늠할 수 있는 CAM, Grad-CAM, ACoL 모델을 공부하고 XAI(Explainable AI)의 기초를 익힌다.
-#### 6. 나를 찾아줘 - Class Activation Map 만들기 [click]()
+#### 6. 나를 찾아줘 - Class Activation Map 만들기 [click](https://github.com/superbJeong/Exploration/blob/main/GoingDeeper/GD_06_Class_Activation_Map.ipynb)
 >CAM, Grad-CAM을 위한 모델을 직접 만들고, CAM을 추출해 시각화 해본다. CAM을 Object detection에 적용해 결과를 평가해 본다.
 >* CAM과 Grad-CAM 시각화
 #### 7. Object Detection
 >Object detection 문제와 이를 해결하기 위한 다양한 detection 모델들을 알아본다.
-#### 8. GO/STOP! - Object Detection 시스템 만들기 [click]()
+#### 8. GO/STOP! - Object Detection 시스템 만들기 [click](https://github.com/superbJeong/Exploration/blob/main/GoingDeeper/GD_08_object_detection.ipynb)
 >Object detection 모델을 사용해 자동차 또는 사람이 가까이 있는지 확인한 후 멈출 수 있는 시스템을 만든다.
 >* KITTI 데이터셋 활용하여 RetinaNet 학습
 #### 9. 물체를 분리하자! - 세그멘테이션 살펴보기
 >픽셀 수준에서 이미지의 각 부분이 어떤 의미를 갖는 영역인지 분리를 해내는 세그멘테이션을 학습한다. 세그멘테이션의 종류, 주요 모델, 평가 기준을 알아본다.
 제출함
-#### 10. 도로 영역을 찾자! - 세그멘테이션 모델 만들기 [click]()
+#### 10. 도로 영역을 찾자! - 세그멘테이션 모델 만들기 [click](https://nbviewer.org/github/superbJeong/Exploration/blob/main/GoingDeeper/GD_10_semantic_segmentation.ipynb)
 >시맨틱 세그멘테이션을 이용해 자율주행 차량을 위해 도로영역을 찾는 모델을 간단히 만들어 본다.
 >* U-Net 및 U-Net++ 모델을 구현하여 도로 영역 segmentation
 #### 11. OCR 기술의 개요
 >이미지 속 글자를 읽어보는 OCR 기술을 구성하는 Text detection과 Text recognition에 대해 알아본다.
-#### 12. 직접 만들어보는 OCR [click]()
+#### 12. 직접 만들어보는 OCR [click](https://github.com/superbJeong/Exploration/blob/main/GoingDeeper/GD_12_ocr.ipynb)
 >Text recognition 모델을 구현, 학습하고 Text detection 모델과 연결하여 OCR을 구현한다. 
 >* CRNN과 keras-ocr detector를 활용하여 이미지에서 text를 찾고 인식
 #### 13. 멀리 있지만 괜찮아
 >카메라 스티커앱의 Face Detection을 더욱 가볍고 빠르고 정확하게 개선할 수 있는 딥러닝 모델에 대해 자세히 알아본다.
-#### 14. 멀리 있는 사람도 스티커를 붙여주자 [click]()
+#### 14. 멀리 있는 사람도 스티커를 붙여주자 [click](https://github.com/superbJeong/Exploration/blob/main/GoingDeeper/GD_14_face_detector.ipynb)
 >이미지에 사람 얼굴이 다수 포함된 경우에도 빠르게 이를 인식할 수 있는 SSD 모델을 구현, 학습해 보고 이를 이용해 카메라 스티커 앱을 개선해 본다.
 >* widerface 데이터셋을 활용하여 SSD 모델 학습
 #### 15. 사람의 몸짓을 읽어보자
 >Human pose estimation에 대해 그동안 발표된 논문을 기반으로 아이디어의 흐름이 발전해 온 내역을 자세히 살펴본다.
-#### 16. 행동 스티커 만들기 [click]()
+#### 16. 행동 스티커 만들기 [click](https://nbviewer.org/github/superbJeong/Exploration/blob/main/GoingDeeper/GD_16_simplebaseline.ipynb)
 >simplebaseline 모델을 활용하여 실제로 구현을 진행해 보면서 Human Pose Estimation을 좀더 깊이있게 이해해 본다.
 >* tfrecord를 활용한 데이터셋 구성과 전처리
 >* Hourglass 모델과 simplebaseline 모델을 비교분석
