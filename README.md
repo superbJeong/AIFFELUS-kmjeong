@@ -5,7 +5,7 @@
 <summary>펼쳐보기</summary>
 <div markdown="1">
 <a href="" target="_blank">click</a>
-#### 1. 인공지능과 가위바위보 하기 <a href="https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_01%5DRock_Scissor_Paper.ipynb" target="_blank">click</a>[click](https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_01%5DRock_Scissor_Paper.ipynb)
+#### 1. 인공지능과 가위바위보 하기 <a href="https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_01%5DRock_Scissor_Paper.ipynb/?target=_blank" target="_blank">click</a>[click](https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_01%5DRock_Scissor_Paper.ipynb)
 >손글씨 이미지(MNIST)를 분류하는 간단한 이미지 분류기를 keras를 활용하여 제작해 보고, 이를 응용하여 가위바위보 이미지를 분류해 보는 프로젝트를 진행한다.
 #### 2. Iris의 세 가지 품종, 분류해볼 수 있겠어요? <a href="https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_02%5DClassifier.ipynb" target="_blank">click</a>[click](https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_02%5DClassifier.ipynb)
 >캐글의 iris 데이터셋을 이용해 기본적인 머신러닝 분류 태스크를 진행하고, 자주 사용되는 모델과 훈련기법을 알아본다.
