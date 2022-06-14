@@ -109,7 +109,7 @@
 * 주제: 자신에게 알맞은 화장법과 헤어스타일 추천
 * Github 링크: [click](https://github.com/superbJeong/Aiffelthon-Aboutme/tree/main/inf_code)
 * Notion 링크: [click](https://mammoth-canidae-d09.notion.site/About-Me-b7f079e28fab4e46922a336d9c5f1141)
-* 역할 요약: (활용 언어: Python)
+* 역할 요약: PyTorch룰 이용한 GANs 모델 학습에 focusing
 
      ➡️ Training GANs
 
@@ -127,7 +127,7 @@
     >- 정제된 닮은꼴 데이터의 닮은꼴 score를 미리 계산하여 텍스트 파일화
     
     ➡️ 웹페이지 서비스
-    >- html로 디자인 된 페이지를 flask를 이용하여 heoku 서버에 배포
+    >- html로 디자인 된 페이지를 flask를 이용하여 heroku 서버에 배포
     >- 서비스를 하기 위한 inference만을 위한 코드 작성 
     >   - 사용자 입력 이미지에서 얼굴을 찾고 face align하여 source 이미지로 입력
     >   - align된 사용자 이미지와 닮은꼴 스코어가 가장 가까운 연예인 사진을 찾고, 
