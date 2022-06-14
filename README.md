@@ -108,6 +108,7 @@
 * 팀명: About Me
 * 주제: 자신에게 알맞은 화장법과 헤어스타일 추천
 * Github 링크: [click](https://github.com/superbJeong/Aiffelthon-Aboutme/tree/main/inf_code)
+* Notion 링크: [click](https://mammoth-canidae-d09.notion.site/About-Me-b7f079e28fab4e46922a336d9c5f1141)
 * 역할 요약: (활용 언어: Python)
 
      ➡️ Training GANs
