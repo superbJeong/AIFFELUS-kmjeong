@@ -1,6 +1,6 @@
 # [Aiffel 울산 1기] 과정 중 수행한 결과 모음
 
-## ⭐Exploration
+## ⭐Exploration (21.12.28 ~ 22.03.14)
 <details>
 <summary>펼쳐보기</summary>
 <div markdown="1">
@@ -45,7 +45,7 @@
 
 
 
-## ⭐Going Deeper
+## ⭐Going Deeper (22.03.15 ~ 22.04.19)
 <details>
 <summary>펼쳐보기</summary>
 <div markdown="2">
@@ -97,13 +97,13 @@
 </div>
 </details>
 
-## ⭐Datathon
+## ⭐Datathon (22.03.08 ~ 22.03.11)
 
 * 팀명: 지우코(지금 우리 코로나는)   
 * 주제: Covid-19 데이터를 분석하여 확진자들 간의 상관 관계를 확인하고자 함   
 * 링크: [click](https://github.com/superbJeong/Exploration/blob/main/Datathon/%EC%A7%80%EA%B8%88%EC%9A%B0%EB%A6%AC%EC%BD%94%EB%A1%9C%EB%82%98%EB%8A%94_COVID19%ED%99%95%EC%82%B0%EC%98%81%ED%96%A5%EB%A0%A5%EB%B6%84%EC%84%9D.ipynb)
 
-## ⭐Hackathon
+## ⭐Hackathon (22.04.20 ~ 22.06.09)
 
 * 팀명: About Me
 * 주제: 자신에게 알맞은 화장법과 헤어스타일 추천
