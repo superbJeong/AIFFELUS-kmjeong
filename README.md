@@ -5,29 +5,6 @@
 <summary>펼쳐보기</summary>
 <div markdown="1">
 
-
-| 제목 | 내용 | Link |
-| --- | --- | --- |
-| 1. 인공지능과 가위바위보 하기|손글씨 이미지(MNIST)를 분류하는 간단한 이미지 분류기를 keras를 활용하여 제작해 보고, 이를 응용하여 가위바위보 이미지를 분류해 보는 프로젝트를 진행한다. | [🔗](https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_01%5DRock_Scissor_Paper.ipynb) |
-| 2. Iris의 세 가지 품종, 분류해볼 수 있겠어요? | 캐글의 iris 데이터셋을 이용해 기본적인 머신러닝 분류 태스크를 진행하고, 자주 사용되는 모델과 훈련기법을 알아본다. | [🔗](https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_02%5DClassifier.ipynb) |  
-| 3. 카메라 스티커앱 만들기 첫걸음 | face detection 기술, 이미지 처리기법 등 Computer Vision 분야의 실용적인 기술 활용법을 알아보고, SNOW 같은 재밌는 얼굴 인식 스티커 앱을 만들어봅시다. | [🔗](https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_03%5DCamera_Sticker.ipynb) |
-| 4. 작사가 인공지능 만들기 | LSTM 모델과 셰익스피어 데이터셋을 사용해 간단한 작사가 인공지능을 만들어 본다. | [🔗](https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_04%5DLyricist.ipynb) |
-| 5. 나의 첫 번째 캐글 경진대회, 무작정 따라해보기 | 캐글 경진대회에 직접 참가해 대회의 규칙과 분위기를 살펴보는 것부터, 머신러닝을 활용해서 모델을 학습시킨 뒤 제출하고 내 랭킹을 확인해보는 것까지, 캐글 경진대회를 위한 전과정을 체험해 본다. | [🔗](https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_05%5D%20Kaggle.ipynb) |
-| 6. 영화리뷰 텍스트 감성분석하기 | imdb 영화 리뷰 평점 데이터를 토대로 사용자들의 리뷰 감성을 분류해 보는 실용적인 텍스트 분류 모델을 구현해 본다. | [🔗](https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_06%5D%20Sentiment_classification.ipynb) |
-| 7. 인물사진을 만들어 보자 | 시맨틱 세그멘테이션(semantic segmentation)을 사용하여 핸드폰의 인물사진을 재현한다. | [🔗](https://nbviewer.org/github/superbJeong/Exploration/blob/main/Exploration/%5BEX_07%5D%20Human_Segmentation.ipynb) |
-| 8.뉴스 요약봇 만들기 | 텍스트 요약을 구현하는 Extractive/Abstractive 접근법에 대해 알아보고, Attentional seq2seq 구조를 활용하여 뉴스 기사를 모델을 구현해 본다. | [🔗](https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_08%5D%20News_Summarization.ipynb) |
-| 9. 폐렴아 기다려라! | 의료영상 기초에 대해서 배우고 의료영상 데이터를 핸들링 하는 방법에 대해서 배워보자. | [🔗](https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_09%5D%20Chest_xray.ipynb) |
-| 10. 인공지능으로 세상에 없던 새로운 패션 만들기 | 생성형 모델 중 가장 중요한 GAN(Generative Adversarial Network)의 개념을 파악하고, DCGAN 구조를 이용하여 간단한 이미지 생성을 진행해 본다. | [🔗](https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_10%5D%20DCGAN_newimage.ipynb) |
-| 11. 어제 오른 내 주식, 과연 내일은? | ARIMA 시계열 분석법을 배우고, 직접 주식 시세를 예측해 본다. | [🔗](https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_11%5D%20Stock_Prediction.ipynb) |
-| 12. 트랜스포머로 만드는 대화형 챗봇 | 트랜스포머의 인코더 디코더 구조와 셀프 어텐션을 코드를 통해 이해해 본다. 이를 영어와 한국어로 이루어진 챗봇 데이터에 적용해 본다. | [🔗](https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_12%5D%20Chatbot.ipynb) |
-| 13. 인간보다 퀴즈를 잘푸는 인공지능 | BERT 모델을 이용한 Q&A 태스크 해결을 수행하며, 자연어처리 분야의 pretrained model의 효용성에 대해 이해해 본다. | [🔗](https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_13%5D%20bert_qna.ipynb) |
-| 14. 아이유팬이 좋아할 만한 다른 아티스트 찾기 | 추천시스템의 기본적인 원리와 구성을 파악하고 Last.fm 데이터 및 MovieLens 데이터를 통해 간단하고 효과적인 아티스트 추천시스템과 영화 추천시스템을 구현해 본다. | [🔗](https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_14%5D%20Recommendata_iu.ipynb) |
-| 15. 문자를 읽을 수 있는 딥러닝 | 문자를 읽는 OCR 모델의 구조를 배우고, keras-ocr과 테서랙트 엔진을 써본다. | [🔗](https://nbviewer.org/github/superbJeong/Exploration/blob/main/Exploration/%5BEX_15%5D%20ocr_python.ipynb) |
-| 16. 다음에 볼 영화 예측하기 | 고객이 바로 지금 원하는 것이 무엇인지를 예측하여 추천하는 Session-based Recommendation 개념을 익히고 실제로 모델을 구축해 본다. | [🔗](https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_16%5Dyoochoose.ipynb) |
-| 17. 난 스케치를 할 테니 너는 채색을 하거라 | 이미지 생성 모델로 사용되는 GAN 중에서 조건이 추가된 cGAN에 대해 알아보고 Pix2Pix를 배워봅니다. | [🔗](https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_17%5Dconditional_generation.ipynb) |
-
-
-
 #### 1. 인공지능과 가위바위보 하기 [click](https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_01%5DRock_Scissor_Paper.ipynb)
 >손글씨 이미지(MNIST)를 분류하는 간단한 이미지 분류기를 keras를 활용하여 제작해 보고, 이를 응용하여 가위바위보 이미지를 분류해 보는 프로젝트를 진행한다.
 #### 2. Iris의 세 가지 품종, 분류해볼 수 있겠어요? [click](https://github.com/superbJeong/Exploration/blob/main/Exploration/%5BEX_02%5DClassifier.ipynb)
